@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Nicole Phillips: Your Next Web Developer</title>
+
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/960.css"/>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/linkedin.css"/>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.stelalr.min.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+</head>
+
+<body>
+
+<div class="header"><header>
+	<a href="http://www.nicoledphillips.com"><h3 class="title">Nicole Phillips</h3></a> <!-- Possibly look into available web fonts-->
+	<nav>
+		<ul class="navigation">
+			<li>
+				<a href="#">Portfolio</a>
+			</li>
+			<li>
+				<a href="#">About</a>
+			</li>
+			<li>
+				<a href="#">Resume</a>
+			</li>
+		</ul> <!--CSS transitions: changing opacity, or scaling up size of text. Use ease-in or ease-in-out.-->
+	</nav>
+</header><!-- /.container_12-->
+</div><!-- /.header-->
+
+
+
+
+<div class="slide" id="slide1">
+<div class="container">
+<div class="card">
+<section>
+
+<div class="photo">
+<img class="profile" src="images/photo-nicole.jpg" alt="Me!" title="Hey! It's me!" />
+</div>
+
+<aside>
+<h2>Nicole Phillips</h2>
+<h5>Web Producer/Developer</h5>
+<p>
+With over three years experience working in a front end development capacity, ranging from building out microsites &amp; landing pages to the development of HTML emails optimized for viewing in different email clients and mobile devices. Web design &amp; development, is always changing &amp; growing. I look forward to learning what new things they have to offer and to further develop my skills.
+</p>
+
+<p>
+As you can see, my portfolio site is currently under construction. I decided to create a quick landing page fashioned after the top portion of the LinkedIn profile. I created it just by looking at the site, and figuring out what was done to create certain effects. In the meantime, click the link on the bottom right, for a quick list of my skills or you can head over to my LinkedIn profile.<br />
+
+<br />
+
+<input type="button" id="improve" value="Improve your profile" /> <input type="button" id="edit" value="Edit profile" />
+
+<br />
+
+<br />
+</p>
+
+
+
+</aside>
+
+<aside class="slideTogglebox">
+
+<h5>Skills</h5>
+<ul>
+<li>HTML 4</li>
+<li>CSS 2.1</li>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+<li>jQuery</li>
+<li>SQL</li>
+
+</ul>
+
+<br>
+
+<p><a class="doc" href="http://www.nicoledphillips.com/docs/NicolePhillips_Resume_DOC.doc">Resume - DOC</a></p>
+<p><a class="pdf" href="#">Resume - PDF</a></p>
+
+</aside>
+<div class="clearfix"></div>
+
+
+</section>
+<aside class="linked">
+<section class="linkprof">
+<a href="http://www.linkedin.com/in/nicolephillips/">www.linkedin.com/in/nicolephillips/</a>
+</section>
+
+<section class="infobox">
+	<a id="slideToggle">Info</a>
+<!--<button id="slideToggle">slideToggle()</button>-->
+</section>
+</aside>
+
+
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<footer class"container_12">
+
+<p>&nbsp;</p>
+
+</footer>
+
+
+<script type="text/javascript">
+	 
+$(".slideDownbox").click(function () {
+   $(this).hide().slideDown('slow');
+});
+ 
+$(".slideUpbox").click(function () {
+   $(this).slideUp(2000);
+});
+ 
+$("#slideToggle").click(function () {
+   $('.slideTogglebox').slideToggle();
+});
+ 
+$("#reset").click(function(){
+	location.reload();
+});
+ 
+
+</script>
+
+
+</body>
+</html>
